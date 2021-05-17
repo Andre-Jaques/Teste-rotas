@@ -7,7 +7,7 @@ function Dashboard() {
 
   return (
     <>
-      <a href="/Profile">Dashboard de teste para versionamento</a>
+      <h1>Dashboard de teste para versionamento</h1>
       <button onClick={()=> navigate('/Profile')}>Profile</button>
       <button onClick={()=> navigate('/Teste')}>teste</button>
     </>
