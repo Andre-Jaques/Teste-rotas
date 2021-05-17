@@ -9,7 +9,7 @@ function Teste() {
     <>
       <h1>TESTE</h1>
       <button onClick={()=> navigate('/')}>Dashboard</button>
-      <button onClick={()=> navigate('/Profile')}>Profile</button>
+     
     </>
   );
 }
