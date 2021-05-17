@@ -8,7 +8,8 @@ function Dashboard() {
   return (
     <>
       <a href="/Profile">Dashboard de teste para versionamento</a>
-      <button onClick={()=> navigate('/Profile')}>Clique aqui</button>
+      <button onClick={()=> navigate('/Profile')}>Profile</button>
+      <button onClick={()=> navigate('/Teste')}>teste</button>
     </>
   );
 }
