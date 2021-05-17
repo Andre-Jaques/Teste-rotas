@@ -8,7 +8,8 @@ function Teste() {
   return (
     <>
       <h1>TESTE</h1>
-      <button onClick={()=> navigate('/')}>Clique aqui</button>
+      <button onClick={()=> navigate('/')}>Dashboard</button>
+      <button onClick={()=> navigate('/Profile')}>Profile</button>
     </>
   );
 }
